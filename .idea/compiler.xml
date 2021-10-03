@@ -6,9 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AccountsSystem" />
+        <module name="AccountsSystemLogic" />
+        <module name="AccountsSystemTranslator" />
         <module name="AccountsSystemDomain" />
+        <module name="AccountsSystemRepository" />
+        <module name="AccountSystemWebSpringBoot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AccountsSystemWeb" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AccountSystemWebSpringBoot" options="-parameters" />
+      <module name="AccountsSystem" options="-parameters" />
+      <module name="AccountsSystemDomain" options="-parameters" />
+      <module name="AccountsSystemLogic" options="-parameters" />
+      <module name="AccountsSystemRepository" options="-parameters" />
+      <module name="AccountsSystemTranslator" options="-parameters" />
+      <module name="AccountsSystemWeb" options="-parameters" />
+    </option>
   </component>
 </project>

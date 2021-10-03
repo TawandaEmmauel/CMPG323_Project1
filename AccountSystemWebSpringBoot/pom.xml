@@ -11,7 +11,7 @@
     </parent>
 
 
-    <artifactId>AccountsSystemDomain</artifactId>
+    <artifactId>AccountSystemWebSpringBoot</artifactId>
     <packaging>jar</packaging>
 
     
