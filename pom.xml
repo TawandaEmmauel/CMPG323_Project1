@@ -29,21 +29,18 @@
         <module>AccountSystemWebSpringBoot</module>
 <!--        <module>AccountsSystemWeb</module>-->
     </modules>
-<!--    <dependencyManagement>-->
-<!--        <dependencies>-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework</groupId>-->
-<!--                <artifactId>spring-context</artifactId>-->
-<!--                <version>4.3.30.RELEASE</version>-->
-<!--            </dependency>-->
-<!--        </dependencies>-->
-<!--    </dependencyManagement>-->
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>za.ac.nwu.ac</groupId>-->
-<!--            <artifactId>spring-context</artifactId>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>4.3.30.RELEASE</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
 
 
 
